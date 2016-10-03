@@ -1,3 +1,5 @@
+<?php  // <~ do not copy the opening php tag
+
 function ewp_remove_script_version( $src ){
 	return remove_query_arg( 'ver', $src );
 }
